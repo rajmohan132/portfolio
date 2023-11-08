@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-family: 'Roboto Slab', serif !important;
+    background: url('images/mainbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navcontainer{
+    background:#4c404036;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    height:75px;
+    position: fixed;
+    
+}
+.navcontainer ul{
+    display: flex;
+    list-style-type: none;
+    margin-top:revert;
+}
+
+.navcontainer ul li{
+    padding:10px;
+    display: flex;
+    
+}
+
+.navcontainer ul li a{
+    text-decoration: none; 
+    color:white;
+    padding:10px;
+    font-weight:400;
+}
+.navcontainer ul li a:hover{
+    font-weight:600; 
+    color: white;
+}
+.aboutcontainer{
+    display: flex;
+    align-items: center;
+}
+.about{
+    padding:10px;
+}
+.about p{
+    color:white;
+    font-size: large;
+    font-weight:500;
+  
+}
+.summary{
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.summary p{
+    color:white;
+    font-weight: 500;
+}
+.profile{
+    align-items: center;
+    justify-content: right;
+    position: absolute;
+    color:black;
+    padding:10px;
+    margin-left: 8%;
+    top: 10%;
+
+} 
+.profile p{
+    font-size: large;
+    font-weight:600;
+}
+
+#about{
+    background: #0d255aa3;
+    border: 0px solid #745555;
+    border-radius: 20px 0 10px 0;
+    padding:20px;
+}
+#about p{
+    font-weight: 200 !important;
+}
+.skills{
+    background: #21388400;
+    color:white;
+    font-weight: 500;
+    padding: 10px;
+
+}
+.skills ul li{
+    padding:5px;
+    list-style-type: none;
+}
+.skills ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+.skills img{
+    max-width: 80px;
+    max-height: 80px;
+    margin:10px;
+}
+.skills img:hover{
+    animation: spin 5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+.pcimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery{
+    margin-top:3%;
+    margin-bottom: 2%;
+}
+.gallery img{
+    width:100%;
+    height:100%;
+    padding: 10px;
+    transition: transform 2s;
+}
+.gallery img:hover {
+    transform: scale(1.2); 
+  }
+.footer{
+    margin-top:2%;
+    height:150px;
+    background:#040404a8;
+}  
